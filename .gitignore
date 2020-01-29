@@ -5,3 +5,4 @@
 build
 creds.txt
 .nb-gradle/
+.nb-gradle-properties
