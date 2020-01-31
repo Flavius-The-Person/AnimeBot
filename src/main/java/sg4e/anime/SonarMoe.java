@@ -40,6 +40,7 @@ public class SonarMoe {
     
     private SonarMoe() {
         ObjectMapper mapper = new ObjectMapper();
+        mapper.findAndRegisterModules();
         
         api = Feign.builder()
             .client(new OkHttpClient())
