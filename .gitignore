@@ -6,3 +6,4 @@ build
 creds.txt
 .nb-gradle/
 .nb-gradle-properties
+credentials.yaml
